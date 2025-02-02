@@ -50,7 +50,7 @@ def open_calendar():
     
     root.withdraw()  # 기본 Tk윈도우 숨김(없으면, 그림일기장 뜰때, Tk라는 기본 윈도우가 같이 생성됨)
     calendar_window = Toplevel()  # 새로운 창 생성
-    calendar_window.title("6조")  # 창 제목 설정
+    calendar_window.title("Photo Diary")  # 창 제목 설정
     calendar_window.geometry("400x310+500+200")  # 창 크기 설정
 
     # 달력 위젯 설정
